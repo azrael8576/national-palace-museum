@@ -61,6 +61,8 @@ jobs:
 
       # Analyze, check formatting, and run unit tests.
       - run: flutter analyze
+      # If the test fails, execute the following command to apply fixes.
+      # dart format .
       - name: Ensure the Dart code is formatted correctly
         run: dart format --set-exit-if-changed .
       - name: Run Flutter unit tests
