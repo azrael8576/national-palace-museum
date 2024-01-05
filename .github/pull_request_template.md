@@ -8,6 +8,7 @@ Before submitting your PR, please make sure you:
 
 - [ ] Include a PR description which states **what you've done and why**
 - [ ] Open a GitHub issue as a bug/feature request before writing your code! That way we can discuss the change, evaluate designs, and agree on the general idea
+- [ ] Ensure the tests and linter pass (`dart format .` to automatically apply formatting)
 - [ ] Update any relevant documentation
 
 Are you a first-time contributor?
